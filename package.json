@@ -1,5 +1,5 @@
 {
-  "name": "capm-app",
+  "name": "firstcapm",
   "version": "1.0.0",
   "dependencies": {
     "@sap/cds": "^9",
@@ -12,15 +12,14 @@
     "start": "cds-serve"
   },
   "private": true,
-
-  "cds":{
-    "requires":{
-       "db":{
-        "kind":"sqlite",
-          "credentials":{
-            "database": "db.sqlite"
-          }
-       }
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "url": "db.sqlite"
+        }
+      }
     }
   }
 }
